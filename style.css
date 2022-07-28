@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+*,
+
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:lavenderblush;
+}
+
+ul{
+    list-style: none;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-gap: 1rem;
+}
+.personal1, .SKILLS, .LANGUAGES{
+    padding: 1rem;
+    line-height: 3;
+}
+.Left , .Education, .Aboutme, .internship, .contact{
+    background-color:lavender;
+   
+}
+.Left-image img{
+    width:100%;
+}
+
+
+
+.Left-image {
+    position: relative;
+}
+.Left-image h2 {
+    position: absolute;
+    bottom: ;
+    left: 1rem;
+
+}
+
+.Aboutme, .Education, .internship, .contact{
+    line-height: 2;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+
+
+.dob, .age, .gender, .hobbies, .clg, .cl
+{
+    background-color:palevioletred;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+.Education{
+    line-height: 2;
+}
+.Education{
+
+}
+.button{
+    font-size: 30px;
+	padding: 100px 20px;
+	margin: 50px 0  50px 130px;
+    background-color: blue;
+
+}
+
